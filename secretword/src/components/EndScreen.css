@@ -1,0 +1,24 @@
+.gameOver {
+    height: 22em;
+}
+
+.gameOverContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.gameOverContainer h2 {
+    font-size: 1.5em;
+}
+.gameOverContainer span {
+    color: #ecfa00;
+    font-size: 2em;
+}
+
+.gameOverContainer h3 span{
+    font-size: 1.2em;
+    color: #ecfa00;
+    font-weight: bold;
+    text-transform: uppercase;
+}
