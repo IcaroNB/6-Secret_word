@@ -22,3 +22,25 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@media (max-width: 450px) {
+    .gameOver {
+        height: 12em;
+        margin-top: 3em;
+    }
+
+    .gameOverContainer {
+        gap: 2em;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 768px) {
+    .gameOver {
+        height: 15em;
+        margin-top: 3em;
+    }
+
+    .gameOverContainer {
+        gap: 3em;
+    }
+}
