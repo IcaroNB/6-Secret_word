@@ -6,5 +6,52 @@
 .startScreen p {
     margin-bottom: 2em;
     color: #ecfa00;
-    font-size: 3em646a0;
+    font-size: 3em;
+}
+
+@media(max-width:450px) {
+    .startScreen {
+        display: block;
+    }
+
+    .startScreen img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .startScreen p {
+        margin-bottom: 2em;
+        color: #ecfa00;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 768px) { 
+    .startScreen img {
+        height: 350px;
+        width: 75%;
+    }
+
+    .startScreen p {
+        margin-bottom: 2em;
+        color: #ecfa00;
+        font-size: 2em;
+    }
+
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px){ 
+    .startScreen img {
+        height: 500px;
+        width: 75%;
+    }
+
+    .startScreen p {
+        margin-bottom: 2em;
+        color: #ecfa00;
+        font-size: 3em;
+    }
+
+    
 }
